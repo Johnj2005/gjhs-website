@@ -1,0 +1,352 @@
+body{
+    font-family: sans-serif;
+   margin: 0%;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    background: url(https://cdna.artstation.com/p/assets/images/images/004/105/600/large/stefano-spaziani-tigre-copertina.jpg?1480408252);
+    min-height: 40rem;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%; 
+    min-width: 100rem;
+    padding-left: 0px;
+    
+    
+
+}
+
+
+    
+
+nav{
+   height: 80px;
+    background-color:orangered;
+    line-height: 80px;
+    
+}
+nav ul{
+    float: right;
+    margin: 14px;
+    margin-right: 1.9rem;
+    padding-right: 0%;
+    display: flex;
+    justify-content: center;
+    margin-top: -.2%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+  padding-right: 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+   padding-right: 23px;
+   
+}
+
+
+.logo{
+    min-width: 20px;
+    max-width: 60px;
+    min-height: 20px;
+    max-height: 60px;
+    margin-left: 1.9rem;
+    margin-top: 0.5%;
+    
+    
+}
+nav ul li:hover{
+    background-color: rgb(204, 58, 6);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align:left;
+
+}
+.section{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+    margin-top: 14%;
+}
+
+.section h1{
+    color: red;
+    line-height: 50px;
+ 
+}   
+.section p{
+    color:red;
+}
+.btn-1{
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: rgb(214, 18, 18);
+    border: none;
+    border-radius: 10px;
+}
+.features{
+    margin-top: 4%;
+    margin-bottom: 2%;
+ color: aliceblue;
+
+}
+
+.features button{
+    padding: 0.7rem 2rem;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+   
+
+}
+
+.showcase h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+}
+
+
+
+.apply{
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color:aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: orangered;
+    color: black;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 4%;
+}
+
+.drop7btn{
+    background-color: orangered;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+
+}
+.dropdown7{
+    position:relative;
+    display: inline-block;
+}
+.dropdown-content7{
+    display: none;
+    position: absolute;
+    background-color: orange;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+    z-index: 1;
+}
+.dropdown-content7 a{
+    color: rgb(0, 0, 0);
+    padding: 12px 4px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content7 a:hover{background-color: orangered;}
+.drop7:hover .dropdown-content7 {display: block;}
+.drop7:hover .drop7btn {background-color: rgb(214, 18, 18);}
+
+
+
+
+.googled{
+    background-color:rgb(0, 0, 0);
+    color: white;
+   margin-top: -2.1%;
+   margin-bottom: -4%;
+  
+
+}
+.showcase{
+    background-color: rgb(0, 0, 0);
+    margin-top: -5%;
+    margin-bottom: -4%;
+    width: 100%;
+}
+
+.main{
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(300px,300px));
+    column-gap: 10px;
+    row-gap: 10px;
+  margin-left: 9%;
+
+    
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin-top: 30%;
+    margin-left: 45%;
+    
+    
+}
+ 
+.buttoners{
+    padding-top: 14.5%;
+    margin-left: 575px;
+    display:inline-block;
+    margin-bottom: 4%;
+    
+}
+
+.background{
+    background-color: black;
+    margin-top: -4%;
+ width: 100%;
+    height: 200%;
+    margin-bottom: -4%;
+}
+
+.text9{
+    color: white;
+    margin-top: 4%;
+    padding-top: 10px;
+
+    
+}
+
+.slides{
+    margin-top: 30px;
+   padding-bottom: 100px;
+    margin-bottom: -4%;
+    background-color: black;
+    padding-left: 100px;
+}
+.employee_directory{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.employee_directory h1{
+    text-align: center;
+    font-size: 2em;
+    color: aqua;
+    margin-bottom: 40px;
+}
+
+form.search_form{
+    position: relative;
+    margin-bottom: 30px;
+}
+form.search_form input{
+    width: 90%;
+    padding: 10px;
+    font-size: 1em;
+    border: solid 1px #c6c6c6;
+    border-radius: 5px;
+    margin: 0 auto;
+    transition: .2s ease-in;
+}
+form.search_form input:focus{
+    border-color: aquamarine;
+    outline: none;
+}
+form.search_form i{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #c6c6c6;
+}
+.employee_listing .employee{
+ padding: 40px;
+ background-color: white;
+ box-shadow: 1px 1px 30px rgba(0 0 0 / .1);
+ margin-bottom: 20px;
+ margin-right: auto;
+ margin-left: auto;
+ text-align: center;
+ width: 100%;
+ border-radius: 5px;
+}
+
+.employee_listing .employee img{
+    width: 200px;
+    border-radius: 100px;
+
+}
+.employee_listing .employee h2{
+   font-size: 80px;
+   font-weight: 900;
+   color: aquamarine;
+   margin-bottom: 0;
+   line-height: 0;
+}
+.employee_listing .employee .job_type{
+    
+    font-weight: 900;
+   padding: 10px;
+   background-color: #333;
+   border-radius: 10px;
+   color: white;
+ }
+ .employee_listing .employee:hover,
+ .employee_listing .employee:hover h2{
+    color: white;
+    background-color: red;
+    transition: .2s ease-in;
+ }
+ 
+ .employee_listing .employee:hover .job_type{
+    
+    background-color: red;
+   border: 1px solid white;
+ }
+ 
+@media (min-width:768px){
+    .employee_listing{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.employee_listing .employee{
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+form.search_form{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+}
+
+@media (min-width: 1366px){
+    .employee_listing .employee{
+        width: 320px;
+}
+
+}
